@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/cjh/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/cjh/catkin_ws/src/navigation/amcl/include/**",
+        "/home/cjh/catkin_ws/src/navigation/base_local_planner/include/**",
+        "/home/cjh/catkin_ws/src/navigation/carrot_planner/include/**",
+        "/home/cjh/catkin_ws/src/case_manipulator/case_manipulator_control/include/**",
+        "/home/cjh/catkin_ws/src/case_manipulator/case_manipulator_interface/include/**",
+        "/home/cjh/catkin_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/cjh/catkin_ws/src/navigation/costmap_2d/include/**",
+        "/home/cjh/catkin_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/DynamixelSDK/ros/dynamixel_sdk/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/cjh/catkin_ws/src/navigation/global_planner/include/**",
+        "/home/cjh/catkin_ws/src/uvbot2/uvbot_CSIcam/gscam/include/**",
+        "/home/cjh/catkin_ws/src/case_manipulator/manipul_test_3dof/include/**",
+        "/home/cjh/catkin_ws/src/case_manipulator/manipul_test_teleop/include/**",
+        "/home/cjh/catkin_ws/src/navigation/map_server/include/**",
+        "/home/cjh/catkin_ws/src/navigation/move_base/include/**",
+        "/home/cjh/catkin_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/cjh/catkin_ws/src/navigation/nav_core/include/**",
+        "/home/cjh/catkin_ws/src/navigation/navfn/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/open_manipulator/open_manipulator_control_gui/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/open_manipulator/open_manipulator_controller/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/open_manipulator/open_manipulator_libs/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/open_manipulator/open_manipulator_teleop/include/**",
+        "/home/cjh/catkin_ws/src/manipulator/robotis_manipulator/include/**",
+        "/home/cjh/catkin_ws/src/navigation/rotate_recovery/include/**",
+        "/home/cjh/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/cjh/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/cjh/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/cjh/catkin_ws/src/uvbot2/uvbot_core/include/**",
+        "/home/cjh/catkin_ws/src/uvbot2/uvbot_interface/include/**",
+        "/home/cjh/catkin_ws/src/uvbot2/uvbot_teleop/include/**",
+        "/home/cjh/catkin_ws/src/navigation/voxel_grid/include/**",
+        "/home/cjh/catkin_ws/src/ros_package/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

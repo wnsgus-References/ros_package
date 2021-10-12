@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 ## 필수
 ## 프로젝트 이름
-project(wnsgus_ros_basic_package)
+project(ros_package)
 
 ## 필수
 ## 빌드시 요구되는 구성요소 패키지 ex) roscpp ,std_msgs등등 msg 
@@ -47,7 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## [CATKIN_DEPENDS 의존성패키지] 의존성패키지 지정 [DEPENDS system_lib] 시스템의존패키지를 의미
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES wnsgus_ros_basic_package
+#  LIBRARIES ros_package
 #  CATKIN_DEPENDS roscpp std_msgs
 #  DEPENDS system_lib
 )
@@ -61,7 +61,7 @@ include_directories(
 
 ## 빌드후 생성할 라이브러리 선언 
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/wnsgus_ros_basic_package.cpp
+#   src/${PROJECT_NAME}/ros_package.cpp
 # )
 
 ## 해당 라이브러리 및 실행 파일을 빌드하기에 앞서 생성해야할 의존성이 있는 메세지 및 dynamic reconfigure가 있다면 우선적으로 이를 실행하라는 설정
@@ -69,14 +69,14 @@ include_directories(
 
 ## 필수
 ## 빌드 후 실행 파일에 대한 옵션을 지정 
-add_executable(wnsgus_ros_basic_package src/wnsgus_ros_basic_package.cpp)
+add_executable(ros_package src/ros_package.cpp)
 
 ## 해당 라이브러리 및 실행 파일을 빌드하기에 앞서 생성해야할 의존성이 있는 메세지 및 dynamic reconfigure가 있다면 우선적으로 이를 실행하라는 설정
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## 필수 
 ## 지정 실행파일을 생성하기에 앞서 링크해야하는 라이브러리와 실행파일을 링크해주는 옵션
-target_link_libraries(wnsgus_ros_basic_package
+target_link_libraries(ros_package
   ${catkin_LIBRARIES}
  )
 
@@ -144,7 +144,7 @@ target_link_libraries(wnsgus_ros_basic_package
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_wnsgus_ros_basic_package.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_ros_package.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
