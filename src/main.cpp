@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 	ros::Rate loop_rate(10);
  	while(ros::ok())
    	{ 
-        ROS_INFO("Hello World!");
+        ROS_INFO("Hello World");
 		loop_rate.sleep();
 		ros::spinOnce();
    	}
