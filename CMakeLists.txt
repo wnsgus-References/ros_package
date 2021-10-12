@@ -69,7 +69,7 @@ include_directories(
 
 ## 필수
 ## 빌드 후 실행 파일에 대한 옵션을 지정 
-add_executable(ros_package src/ros_package.cpp)
+add_executable(ros_package src/main.cpp)
 
 ## 해당 라이브러리 및 실행 파일을 빌드하기에 앞서 생성해야할 의존성이 있는 메세지 및 dynamic reconfigure가 있다면 우선적으로 이를 실행하라는 설정
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
