@@ -3,5 +3,15 @@
     "python.autoComplete.extraPaths": [
         "/home/cjh/catkin_ws/devel/lib/python2.7/dist-packages",
         "/opt/ros/melodic/lib/python2.7/dist-packages"
-    ]
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cjh/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "files.associations": {
+        "ratio": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
 }

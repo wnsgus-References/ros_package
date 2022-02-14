@@ -1,15 +1,11 @@
-#include "ros/ros.h"
-#include <stdio.h>
+#include <ros/ros.h>
+#include "ros_package.h"
 
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "test_node");
+	ros::init(argc, argv, "ros_package");
 	ros::Time::init();
-	ros::Rate loop_rate(10);
- 	while(ros::ok())
-   	{ 
-        ROS_INFO("Hello World");
-		loop_rate.sleep();
-		ros::spinOnce();
-   	}
+    ROS_INFO("[%s] Start node",ros::this_node::getName().c_str());
+	RosPackage ros;
+	ros::spin();
 }
