@@ -10,17 +10,17 @@
 class RosPackage
 {
 private:
-    ros::NodeHandle nh;
-	ros::NodeHandle pnh;
+  ros::NodeHandle nh;
+  ros::NodeHandle pnh;
 
-	ros::Subscriber sub_;
-	ros::Publisher pub_;
-    ros::Timer timer;
+  ros::Subscriber sub_;
+  ros::Publisher pub_;
+  ros::Timer timer;
 
-    int num;
-    double publish_time;
-    void topicCallback(const std_msgs::EmptyConstPtr& msgs);
-    void timerCallback(const ros::TimerEvent& event);
+  int num;
+  double publish_time;
+  void topicCallback(const std_msgs::EmptyConstPtr& msgs);
+  void timerCallback(const ros::TimerEvent& event);
 
 public:
     RosPackage();
